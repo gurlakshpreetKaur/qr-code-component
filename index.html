@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 10px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    :root {
+      --baby-blue: hsl(212, 45%, 89%);
+      --off-black: rgb(46, 57, 78);
+      --greyish-blue: hsl(220, 15%, 55%);
+    }
+
+    body {
+      background-color: var(--baby-blue);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .qr-code-outer-div {
+      background-color: white;
+      border-radius: 15px;
+      width: 300px;
+      padding: 13px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .qr-code-outer-div img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .qr-code-outer-div h3 {
+      color: var(--off-black);
+      font-weight: 700;
+    }
+
+    .qr-code-outer-div p {
+      color: var(--greyish-blue);
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="qr-code-outer-div">
+    <img src="images/image-qr-code.png">
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Gurlakshpreet Kaur</a>.
+  </div>
+</body>
+
+</html>
